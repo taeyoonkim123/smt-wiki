@@ -1,0 +1,6 @@
+{
+  "name": "아리안토스 세계관 가이드",
+  "description": "미궁도시 아리안토스의 설정과 주요 등장인물 컴펜디움",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
