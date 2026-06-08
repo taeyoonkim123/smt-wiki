@@ -6,7 +6,7 @@ export function SectionWorld() {
   return (
     <section className="bg-zinc-950 pb-24">
       {/* City and Academies (Locations) */}
-      <div className="max-w-7xl mx-auto px-6 py-24">
+      <div id="locations" className="max-w-7xl mx-auto px-6 py-24 scroll-mt-20">
         <motion.div 
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -48,7 +48,7 @@ export function SectionWorld() {
       </div>
 
       {/* Labyrinth Intro */}
-      <div className="bg-zinc-900/50 border-y border-zinc-800">
+      <div id="labyrinth" className="bg-zinc-900/50 border-y border-zinc-800 scroll-mt-20">
         <div className="max-w-7xl mx-auto px-6 py-24 space-y-24">
           <motion.div 
             initial={{ opacity: 0 }}
@@ -130,7 +130,7 @@ export function SectionWorld() {
       </div>
 
       {/* Guild & Economy Rules */}
-      <div className="max-w-7xl mx-auto px-6 pt-24 pb-12">
+      <div id="guild" className="max-w-7xl mx-auto px-6 pt-24 pb-12 scroll-mt-20">
         <h3 className="text-3xl font-bold mb-8 text-center">길드 시스템 & 퀘스트 규칙</h3>
         <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 lg:p-10 flex flex-col md:flex-row gap-10">
           <div className="flex-1 space-y-4">

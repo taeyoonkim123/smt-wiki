@@ -46,6 +46,8 @@ export interface Character {
   mbti: string;
   enneagram: string;
   weaponOrMagic: string;
+  combatDescription?: string;
+  futureDescription?: string;
   description?: string;
   icon?: string;
   imageUrl: string;

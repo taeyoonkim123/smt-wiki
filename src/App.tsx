@@ -1,5 +1,8 @@
 import { SectionWorld } from './components/SectionWorld';
+import { SectionMap } from './components/SectionMap';
+import { SectionLore } from './components/SectionLore';
 import { SectionRoster } from './components/SectionRoster';
+import { FloatingNav } from './components/FloatingNav';
 import { motion } from 'motion/react';
 import { ChevronDown } from 'lucide-react';
 
@@ -10,6 +13,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen font-sans selection:bg-rose-900/50 selection:text-white">
+      <FloatingNav />
       {/* Hero Header */}
       <header className="relative h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden">
         {/* Background dark gradient overlay */}
@@ -78,7 +82,11 @@ export default function App() {
           </div>
         </section>
 
+        <SectionLore />
+
         <SectionRoster />
+
+        <SectionMap />
       </main>
 
       {/* Footer */}

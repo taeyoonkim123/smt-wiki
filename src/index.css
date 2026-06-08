@@ -17,3 +17,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   @apply font-bold text-zinc-100 font-serif tracking-tight;
 }
+
+/* Hide scrollbar for horizontal scrolling elements like pills */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
