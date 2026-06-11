@@ -580,14 +580,14 @@ export const characters: Character[] = [
     gender: '여',
     faction: '세오른 마법 아카데미',
     role: '학생',
-    
+    school: '원소',    
     rank: '1학년, 1서클',
     quote: '강한 자가 약한 자를 짓밟는다. 그게 이 아카데미의 룰이잖아?',
     mbti: 'ESTP',
     enneagram: '378',
     weaponOrMagic: '원소학파 1서클 조명탄 화염',
     combatDescription: '상대를 깔볼 때만 겉보기 용으로 사용하는 기초적인 폭발형 불꽃 마법. 실전 경험 전무.', // TODO: 여기에 전투 방식 및 스킬 상세 설명을 적어주세요.
-    futureDescription: '전쟁 발발 후 제일 먼저 게이트로 도주하려 사람들을 짓밟았으나, 광역 낙뢰에 직격당해 그 자리에서 검은 재와 뼛가루로 변해 흩어진다.', // TODO: 여기에 원작의 미래 및 행적을 적어주세요.
+    futureDescription: '선민의식 가득한 귀족이었으나, 테일리와 미궁 파티를 하며 테일리에게 감화된다. 여러 에피소드를 겪으며 테일리의 연인이 되지만 아리안토스 침공 당시 테일리의 눈 앞에서 죽고 사령으로 부활한다. 테일리는 눈물을 머금고 단칼에 목을 잘라 안식을 선물한다.', // TODO: 여기에 원작의 미래 및 행적을 적어주세요.
     imageUrl: getAssetUrl('VV_A1.webp?v=0'),
     icon: '📖',
   },
@@ -1039,6 +1039,24 @@ export const characters: Character[] = [
     combatDescription: '지명한 육면체 공간 안에 온갖 중력과 원소 압박, 공기 흡수를 몰아넣어 대상의 눈 핏줄까지 터트려버리는 무자비한 구속.', // TODO: 여기에 전투 방식 및 스킬 상세 설명을 적어주세요.
     futureDescription: '결계가 누구도 깰 수 없다 오만하게 확신하고 적의 심연급 간부를 가두었으나, 내부의 흑마력 파장 한 방에 결계가 유리가루처럼 박살나고 그 데미지 패널티로 눈알과 이빨이 터지며 압살사한다.', // TODO: 여기에 원작의 미래 및 행적을 적어주세요.
     imageUrl: getAssetUrl('MI_A1.webp?v=0'),
+    icon: '📖',
+  },
+  {
+    id: 'ZR',
+    name: '로냐',
+    title: '은밀한그림자',
+    gender: '여',
+    faction: '길드',
+    role: '길드원',
+
+    rank: '마스터로그',
+    quote: '아리안토스가 곧 위험에 빠질거야.',
+    mbti: 'INTJ',
+    enneagram: '538',
+    weaponOrMagic: '단검술,은신술',
+    combatDescription: '기척을 지우고 은신하여 적의 뒤에서 공격하는 은밀한 전투 스타일.', // TODO: 여기에 전투 방식 및 스킬 상세 설명을 적어주세요.
+    futureDescription: '원작 소설에서는 한냐의 언급으로만 등장한다. 갑작스럽게 길드장을 관두고 한냐에게 일을 맡긴후 잠적한다. 그 이유는 아무도 모르나 아마 검은여명회와 관련된 것 같다. 미궁 상층과 중층에서 종종 수인이 발견된다고 한다', // TODO: 여기에 원작의 미래 및 행적을 적어주세요.
+    imageUrl: getAssetUrl('ZR_A1.webp?v=0'),
     icon: '📖',
   },
 
